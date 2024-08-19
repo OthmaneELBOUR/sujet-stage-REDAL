@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-QueueManagerApplication<queue-manager>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "stage.redal.attente.queue_manager.QueueManagerApplication",
+            "projectName": "queue-manager",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

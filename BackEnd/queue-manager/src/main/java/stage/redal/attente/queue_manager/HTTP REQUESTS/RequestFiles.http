@@ -1,0 +1,31 @@
+POST http://localhost:8080/api/client
+Content-Type: application/json
+
+{
+        "requestId" : 0,
+        "numberTicket": 620,
+        "timeStamp": "2024-07-21T18:20:00",
+        "service": {
+            "serviceId": 3,
+            "typeService": "RECLAMATION",
+            "agence": {
+                "agenceId": 1,
+                "name": "AGENCE HASSAN",
+                "adress": "Next FILAHI",
+                "phoneNumber": "05XXXXXXXX"
+            }
+        }
+    }
+
+
+##
+
+GET http://localhost:8080/api/client/latest_request/3
+
+##
+
+PUT http://localhost:8080/api/client/processing/6
+
+##
+
+DELETE http://localhost:8080/api/client/delete/12
